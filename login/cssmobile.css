@@ -1,0 +1,23 @@
+@media(min-width:600px){
+
+body{
+    width: 100%;
+    margin: 0%;
+    padding-top: 0%;
+}
+
+#sidebar{
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    background-color: black;
+    z-index: 5;
+}
+
+.main-body{
+    margin-left: 200px;
+    width: 100%;
+    /* padding-top: 10px; */
+    padding: 10px;
+}
+}
